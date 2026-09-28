@@ -68,4 +68,4 @@ never stops on its own. Press Ctrl-C to stop it. `code/data.rb` is a worksheet f
 Stop the Codespace. Code > Codespaces > the three dots next to it > **Stop codespace**. It stops itself after thirty minutes idle, but stopping it yourself is the habit.
 
 ## About me
-
+lmfao
