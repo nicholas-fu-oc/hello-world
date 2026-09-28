@@ -1,0 +1,25 @@
+{
+  "name": "Ruby Development Environment",
+  "image": "ruby:4.0",
+
+  // AGENT CLI PLACEHOLDER. The agent CLI is not chosen yet (due about 2026-09-21) and is
+  // not needed for week 1. When it is chosen, install it here, as a "features" entry or a
+  // "postCreateCommand", and rebuild the prebuild. Do not add it before then.
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vortizhe.simple-ruby-erb",
+        "MS-vsliveshare.vsliveshare"
+      ],
+      "settings": {
+        "editor.stickyScroll.enabled": true,
+        "[ruby]": {
+          "editor.tabSize": 2,
+          "editor.insertSpaces": true,
+          "editor.semanticHighlighting.enabled": true
+        }
+      }
+    }
+  }
+}
